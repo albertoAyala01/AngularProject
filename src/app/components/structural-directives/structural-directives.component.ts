@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './structural-directives.component.scss'
 })
 export class StructuralDirectivesComponent {
-  letters: String[]= ["A","B","C","D"]
+  letters: string[]= ["A","B","C","D"]
 }
