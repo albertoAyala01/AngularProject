@@ -17,7 +17,6 @@ export class MaterialDesignComponent {
 
     dialogRef.afterClosed().subscribe((result) => {
       this.name = result;
-      console.log(this.name);
     });
   }
 }
