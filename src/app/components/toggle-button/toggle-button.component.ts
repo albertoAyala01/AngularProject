@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './toggle-button.component.scss'
 })
 export class ToggleButtonComponent {
-  active = false;
+  active:boolean = false;
 
   changeColor():void{
     if(this.active){
