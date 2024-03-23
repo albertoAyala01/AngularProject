@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class DataBindingComponent {
 
   textValue = "Hello world";
-  textValueTwoWay = "Hello world";
+  textValueTwoWay:string = "Hello world";
   showAlert():void{
     window.alert("I was triggered by an event");
   }
